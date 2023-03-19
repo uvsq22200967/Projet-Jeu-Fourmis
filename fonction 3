@@ -1,0 +1,9 @@
+WHITE = "white"
+BLACK = "black"
+
+def changement_couleur(couleur):
+    if couleur == WHITE:
+        return BLACK
+    elif couleur == BLACK:
+        return WHITE
+
