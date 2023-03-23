@@ -9,3 +9,4 @@ def right_direction(direction):
 def left_direction(direction):
     if color == "White":
         return (direction + 2) % 4
+    
