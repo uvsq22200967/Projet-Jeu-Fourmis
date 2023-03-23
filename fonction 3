@@ -2,13 +2,14 @@
 WHITE = "white"
 BLACK = "black"
 
-def changement_couleur(couleur):
-    if couleur == WHITE:
+def changement_color(color):
+    if color == WHITE:
         return BLACK
-    elif couleur == BLACK:
+    elif color == BLACK:
         return WHITE
-print(changement_couleur(WHITE))
+print(changement_color(WHITE))
 
 
-def changement_case(couleur):
-    new_couleur = changement_couleur()
+def changement_case(color):
+    new_couleur = changement_color()
+    
