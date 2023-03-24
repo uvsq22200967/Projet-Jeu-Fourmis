@@ -3,10 +3,10 @@ Right = 1
 Left = 2
 
 def right_direction(direction):
-    if color == "Black" : 
+    if color == "White" : 
         return (direction + 1) % 4 
 
 def left_direction(direction):
-    if color == "White":
+    if color == "Black":
         return (direction + 2) % 4
     
